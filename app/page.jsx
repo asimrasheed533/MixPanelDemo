@@ -4,12 +4,12 @@ import mixpanel from "../lib/mixpanel";
 
 export default function Page() {
   const handleButtonClick = () => {
-    mixpanel.identify("123");
+    mixpanel.identify("786");
     mixpanel.people.set({
       $name: "John Doe",
-      $email: "mehfoozijaz786@gmail.com",
+      $email: "asimrasheed442@gmail.com",
     });
-    mixpanel.track("Sign Up");
+    mixpanel.track("Sign Up view");
   };
 
   return (
